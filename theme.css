@@ -7,10 +7,20 @@ title-bar {
     link-bar {
     position: relative;
     left: 15%;
+    margin: auto;
 }
-    current-page {
+
+    link-bar current-page {
     text-align: center;
-    border-bottom: 1px solid black;
+    border: 1px solid black;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+link-bar a {
+    text-align: center;
+    padding-left: 2px;
+    padding-right: 2px;
 }
 
 body {
