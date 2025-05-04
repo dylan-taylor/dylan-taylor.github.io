@@ -25,6 +25,7 @@ link-bar a {
 }
 
 body {
+	max-width: 100ch;
     position: absolute;
     left: 10%;
     right: 10%;
